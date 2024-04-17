@@ -1,6 +1,8 @@
 name: Node.js CI/CD pipeline
 
-on: [push]
+on: 
+  push:
+    branches: [main]
 
 jobs:
     build-and-test:
@@ -12,9 +14,7 @@ jobs:
               uses: actions/setup-node@v3
               with:
                 node-version: 18
-            - name: Install Dependencies
-              run: npm install
-            - name: Run Tests
-              run: npm test
+            - run: npm ci
+            - run: npm test
             
             
