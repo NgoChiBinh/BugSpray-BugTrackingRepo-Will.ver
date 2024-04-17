@@ -4,10 +4,10 @@
   "description": "Test repo for Bug Spray's Webhook Test Repo\r Edit 2 for repo\r Edit 3 for repo\r Edit 4 for repo\r Edit 6 for repo\r Edit 7 for repo\r Edit 8 for repo\r Edit 9 for repo\r Edit 12 for repo\r Edit 16 for repo\r Edit 17",
   "main": "index.js",
   "directories": {
-    "test": "jest"
+    "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
